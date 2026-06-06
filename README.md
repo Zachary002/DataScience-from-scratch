@@ -1,9 +1,9 @@
-# Data Science from Scratch — 数据科学完整学习路线（找工作版）
+# Data Science from Scratch — 数据科学完整学习路线
 
-> 一份覆盖**数据科学 / 数据分析 / 机器学习工程师**岗位所需全栈知识的项目式学习仓库。
+> 一份覆盖数据科学全栈知识的项目式学习仓库。
 > 每一个知识点配一个独立的 Jupyter Notebook，使用经典公开数据集，含中英双语讲解、数学公式推导和完整代码流程。
 >
-> A project-based curriculum that covers **everything a Data Scientist / Analyst / ML Engineer** interview demands.
+> A project-based curriculum covering the full data-science stack.
 > Each topic has its own Jupyter notebook with a classic dataset, bilingual (Chinese / English) explanations, math derivations, and end-to-end code.
 
 > 📐 **统一符号约定 / Unified math notation**：本仓库所有 notebook **共用同一套数学符号**，定义见 [`NOTATION.md`](NOTATION.md)。如果你以前学过 Bishop / ESL / Andrew Ng / Goodfellow，那个文件最后有一张对照表。

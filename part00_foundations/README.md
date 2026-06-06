@@ -11,7 +11,7 @@
 | 0.2 | [`02_numpy_deep_dive.ipynb`](02_numpy_deep_dive.ipynb) | NumPy 全面解析 / NumPy Deep Dive | ✅ Done |
 | 0.3 | [`03_pandas_deep_dive.ipynb`](03_pandas_deep_dive.ipynb) | Pandas 全面解析 / Pandas Deep Dive | ✅ Done |
 | 0.4 | [`04_polars_intro.ipynb`](04_polars_intro.ipynb) | Polars 入门 / Polars Intro | ✅ Done |
-| 0.5 | `05_matplotlib_seaborn.ipynb` | Matplotlib & Seaborn | ⏳ TODO |
+| 0.5 | [`05_matplotlib_seaborn.ipynb`](05_matplotlib_seaborn.ipynb) | Matplotlib & Seaborn | ✅ Done |
 | 0.6 | `06_plotly_interactive.ipynb` | Plotly & 交互可视化 / Interactive Viz | ⏳ TODO |
 | 0.7 | `07_linear_algebra.ipynb` | 线性代数 / Linear Algebra | ⏳ TODO |
 | 0.8 | `08_calculus.ipynb` | 微积分 / Calculus | ⏳ TODO |
@@ -28,6 +28,7 @@
 | California Housing | `sklearn.datasets.fetch_california_housing` | 0.2 |
 | Titanic | `seaborn.load_dataset("titanic")` | 0.3 |
 | Synthetic E-commerce (1M rows) | generated in-notebook with `numpy.default_rng` | 0.4 |
+| Tips | `seaborn.load_dataset("tips")` | 0.5 |
 | (later additions...) | | |
 
 ## 怎么运行 / How to Run
