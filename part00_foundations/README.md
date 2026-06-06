@@ -8,7 +8,7 @@
 | # | Notebook | 主题 / Topic | 状态 / Status |
 |---|---|---|---|
 | 0.1 | [`01_python_for_data_science.ipynb`](01_python_for_data_science.ipynb) | Python for Data Science 数据科学中的 Python | ✅ Done |
-| 0.2 | `02_numpy_deep_dive.ipynb` | NumPy 全面解析 / NumPy Deep Dive | ⏳ TODO |
+| 0.2 | [`02_numpy_deep_dive.ipynb`](02_numpy_deep_dive.ipynb) | NumPy 全面解析 / NumPy Deep Dive | ✅ Done |
 | 0.3 | `03_pandas_deep_dive.ipynb` | Pandas 全面解析 / Pandas Deep Dive | ⏳ TODO |
 | 0.4 | `04_polars_intro.ipynb` | Polars 入门 / Polars Intro | ⏳ TODO |
 | 0.5 | `05_matplotlib_seaborn.ipynb` | Matplotlib & Seaborn | ⏳ TODO |
@@ -25,6 +25,7 @@
 | 数据集 / Dataset | 来源 / Source | 用在 / Used in |
 |---|---|---|
 | Iris | `sklearn.datasets.load_iris` | 0.1 |
+| California Housing | `sklearn.datasets.fetch_california_housing` | 0.2 |
 | (later additions...) | | |
 
 ## 怎么运行 / How to Run

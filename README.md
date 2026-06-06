@@ -6,6 +6,9 @@
 > A project-based curriculum that covers **everything a Data Scientist / Analyst / ML Engineer** interview demands.
 > Each topic has its own Jupyter notebook with a classic dataset, bilingual (Chinese / English) explanations, math derivations, and end-to-end code.
 
+> 📐 **统一符号约定 / Unified math notation**：本仓库所有 notebook **共用同一套数学符号**，定义见 [`NOTATION.md`](NOTATION.md)。如果你以前学过 Bishop / ESL / Andrew Ng / Goodfellow，那个文件最后有一张对照表。
+> All notebooks share **one consistent set of math symbols**, defined in [`NOTATION.md`](NOTATION.md). If you've used Bishop / ESL / Ng / Goodfellow before, there's a translation table at the bottom.
+
 ---
 
 ## 仓库结构 / Repository Layout
