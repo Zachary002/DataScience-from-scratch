@@ -1,0 +1,95 @@
+# Data Science from Scratch — Python dependencies
+# Tested with Python 3.11 (3.10+ should work)
+
+# === Core ===
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+polars>=1.0
+
+# === Visualization ===
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+
+# === Classical ML ===
+scikit-learn>=1.5
+xgboost>=2.0
+lightgbm>=4.3
+catboost>=1.2
+imbalanced-learn>=0.12
+statsmodels>=0.14
+
+# === Deep Learning ===
+torch>=2.3
+torchvision>=0.18
+torchaudio>=2.3
+tensorflow>=2.16; platform_system != "Darwin" or platform_machine != "arm64"
+tensorflow-macos>=2.16; platform_system == "Darwin" and platform_machine == "arm64"
+
+# === NLP ===
+nltk>=3.8
+spacy>=3.7
+gensim>=4.3
+transformers>=4.40
+sentence-transformers>=3.0
+datasets>=2.19
+tokenizers>=0.19
+
+# === Dimensionality reduction / clustering ===
+umap-learn>=0.5
+hdbscan>=0.8
+
+# === Time series ===
+prophet>=1.1
+pmdarima>=2.0
+
+# === Recommenders / Graph ===
+networkx>=3.3
+implicit>=0.7
+mlxtend>=0.23                # association rules
+
+# === Bayesian / Causal ===
+pymc>=5.10
+arviz>=0.17
+causalml>=0.15
+dowhy>=0.11
+econml>=0.15
+
+# === Reinforcement Learning ===
+gymnasium>=0.29
+stable-baselines3>=2.3
+
+# === Big Data ===
+pyspark>=3.5
+dask[complete]>=2024.5
+duckdb>=1.0
+pyarrow>=16.0
+
+# === MLOps ===
+mlflow>=2.13
+optuna>=3.6
+shap>=0.45
+lime>=0.2
+
+# === Survival / Geospatial / Audio ===
+lifelines>=0.28
+geopandas>=1.0
+shapely>=2.0
+librosa>=0.10
+
+# === Web / Deployment ===
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.35
+pydantic>=2.7
+
+# === SQL ===
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+
+# === Notebook ===
+jupyter>=1.0
+jupyterlab>=4.2
+ipywidgets>=8.1
+tqdm>=4.66

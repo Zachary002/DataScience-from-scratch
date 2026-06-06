@@ -1,0 +1,61 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+build/
+dist/
+.installed.cfg
+
+# ===== Virtual envs =====
+venv/
+env/
+.venv/
+.env
+ENV/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== ML artifacts =====
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+mlruns/
+wandb/
+lightning_logs/
+catboost_info/
+runs/
+
+# ===== Data (keep small samples in repo, ignore large dumps) =====
+data/raw/
+data/processed/
+data/external/
+*.csv.gz
+*.parquet
+*.feather
+# Allow tiny demo datasets explicitly:
+!data/sample_*
+!**/data/README.md
+
+# ===== Logs / temp =====
+*.log
+tmp/
+.cache/
