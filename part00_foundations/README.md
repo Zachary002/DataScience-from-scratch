@@ -15,7 +15,7 @@
 | 0.6 | [`06_plotly_interactive.ipynb`](06_plotly_interactive.ipynb) | Plotly & 交互可视化 / Interactive Viz | ✅ Done |
 | 0.7 | [`07_linear_algebra.ipynb`](07_linear_algebra.ipynb) | 线性代数 / Linear Algebra | ✅ Done |
 | 0.8 | [`08_calculus.ipynb`](08_calculus.ipynb) | 微积分 / Calculus | ✅ Done |
-| 0.9 | `09_probability.ipynb` | 概率论 / Probability | ⏳ TODO |
+| 0.9 | [`09_probability.ipynb`](09_probability.ipynb) | 概率论 / Probability | ✅ Done |
 | 0.10 | `10_numerical_optimization.ipynb` | 数值优化 / Numerical Optimization | ⏳ TODO |
 | 0.11 | `11_information_theory.ipynb` | 信息论 / Information Theory | ⏳ TODO |
 | 0.12 | `12_engineering_basics.ipynb` | 工程化 / Git, venv, Jupyter, VSCode | ⏳ TODO |
@@ -31,6 +31,7 @@
 | Tips | `seaborn.load_dataset("tips")` | 0.5 |
 | Gapminder | `plotly.express.data.gapminder()` | 0.6 |
 | Iris (revisited for PCA) | `sklearn.datasets.load_iris` | 0.7 |
+| Mini SMS Spam corpus | constructed inline (UCI SMS Spam style) | 0.9 |
 | (later additions...) | | |
 
 ## 怎么运行 / How to Run
