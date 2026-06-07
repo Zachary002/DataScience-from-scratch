@@ -535,7 +535,7 @@ The final boss — senior DS / MLE interviews.
 
 ## 进度追踪 / Progress Tracker
 
-- [ ] Part 0: Foundations
+- [x] Part 0: Foundations
 - [ ] Part 1: SQL & Databases
 - [ ] Part 2: Statistics & Probability
 - [ ] Part 3: EDA & Preprocessing
