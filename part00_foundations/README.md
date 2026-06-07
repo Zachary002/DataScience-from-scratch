@@ -13,7 +13,7 @@
 | 0.4 | [`04_polars_intro.ipynb`](04_polars_intro.ipynb) | Polars 入门 / Polars Intro | ✅ Done |
 | 0.5 | [`05_matplotlib_seaborn.ipynb`](05_matplotlib_seaborn.ipynb) | Matplotlib & Seaborn | ✅ Done |
 | 0.6 | [`06_plotly_interactive.ipynb`](06_plotly_interactive.ipynb) | Plotly & 交互可视化 / Interactive Viz | ✅ Done |
-| 0.7 | `07_linear_algebra.ipynb` | 线性代数 / Linear Algebra | ⏳ TODO |
+| 0.7 | [`07_linear_algebra.ipynb`](07_linear_algebra.ipynb) | 线性代数 / Linear Algebra | ✅ Done |
 | 0.8 | `08_calculus.ipynb` | 微积分 / Calculus | ⏳ TODO |
 | 0.9 | `09_probability.ipynb` | 概率论 / Probability | ⏳ TODO |
 | 0.10 | `10_numerical_optimization.ipynb` | 数值优化 / Numerical Optimization | ⏳ TODO |
@@ -30,6 +30,7 @@
 | Synthetic E-commerce (1M rows) | generated in-notebook with `numpy.default_rng` | 0.4 |
 | Tips | `seaborn.load_dataset("tips")` | 0.5 |
 | Gapminder | `plotly.express.data.gapminder()` | 0.6 |
+| Iris (revisited for PCA) | `sklearn.datasets.load_iris` | 0.7 |
 | (later additions...) | | |
 
 ## 怎么运行 / How to Run
