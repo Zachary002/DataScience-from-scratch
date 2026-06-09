@@ -12,7 +12,7 @@
 | 1.3 | [`03_groupby_aggregation.ipynb`](03_groupby_aggregation.ipynb) | 聚合 & GROUP BY | ✅ Done |
 | 1.4 | [`04_subquery_cte.ipynb`](04_subquery_cte.ipynb) | 子查询 & CTE | ✅ Done |
 | 1.5 | [`05_window_functions.ipynb`](05_window_functions.ipynb) | 窗口函数 | ✅ Done |
-| 1.6 | `06_advanced_patterns.ipynb` | 高级 SQL 题型 / LeetCode-style | ⏳ TODO |
+| 1.6 | [`06_advanced_patterns.ipynb`](06_advanced_patterns.ipynb) | 高级 SQL 题型 / LeetCode-style | ✅ Done |
 | 1.7 | `07_indexes_explain.ipynb` | 索引与执行计划 | ⏳ TODO |
 | 1.8 | `08_python_sql_integration.ipynb` | Python + SQL 集成 | ⏳ TODO |
 | 1.9 | `09_nosql_overview.ipynb` | NoSQL 速览 | ⏳ TODO |
