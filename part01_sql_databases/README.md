@@ -17,7 +17,7 @@
 | 1.8 | [`08_python_sql_integration.ipynb`](08_python_sql_integration.ipynb) | Python + SQL 集成 | ✅ Done |
 | 1.9 | [`09_nosql_overview.ipynb`](09_nosql_overview.ipynb) | NoSQL 速览 | ✅ Done |
 | 1.10 | [`10_data_warehouse.ipynb`](10_data_warehouse.ipynb) | 数据仓库 / star schema | ✅ Done |
-| 1.11 | `11_dbt_intro.ipynb` | dbt 入门 | ⏳ TODO |
+| 1.11 | [`11_dbt_intro.ipynb`](11_dbt_intro.ipynb) | dbt 入门 | ✅ Done |
 
 ## 数据集 / Datasets
 
