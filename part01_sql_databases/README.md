@@ -15,7 +15,7 @@
 | 1.6 | [`06_advanced_patterns.ipynb`](06_advanced_patterns.ipynb) | 高级 SQL 题型 / LeetCode-style | ✅ Done |
 | 1.7 | [`07_indexes_explain.ipynb`](07_indexes_explain.ipynb) | 索引与执行计划 | ✅ Done |
 | 1.8 | [`08_python_sql_integration.ipynb`](08_python_sql_integration.ipynb) | Python + SQL 集成 | ✅ Done |
-| 1.9 | `09_nosql_overview.ipynb` | NoSQL 速览 | ⏳ TODO |
+| 1.9 | [`09_nosql_overview.ipynb`](09_nosql_overview.ipynb) | NoSQL 速览 | ✅ Done |
 | 1.10 | `10_data_warehouse.ipynb` | 数据仓库 / star schema | ⏳ TODO |
 | 1.11 | `11_dbt_intro.ipynb` | dbt 入门 | ⏳ TODO |
 
