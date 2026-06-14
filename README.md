@@ -538,7 +538,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 0: Foundations
 - [x] Part 1: SQL & Databases
 - [x] Part 2: Statistics & Probability
-- [ ] Part 3: EDA & Preprocessing
+- [x] Part 3: EDA & Preprocessing
 - [ ] Part 4: Regression
 - [ ] Part 5: Classification
 - [ ] Part 6: Unsupervised
