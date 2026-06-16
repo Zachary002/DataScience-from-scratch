@@ -540,7 +540,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 2: Statistics & Probability
 - [x] Part 3: EDA & Preprocessing
 - [x] Part 4: Regression
-- [ ] Part 5: Classification
+- [x] Part 5: Classification
 - [ ] Part 6: Unsupervised
 - [ ] Part 7: Evaluation & Tuning
 - [ ] Part 8: Ensemble
