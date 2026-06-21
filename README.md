@@ -542,7 +542,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 4: Regression
 - [x] Part 5: Classification
 - [x] Part 6: Unsupervised
-- [ ] Part 7: Evaluation & Tuning
+- [x] Part 7: Evaluation & Tuning
 - [ ] Part 8: Ensemble
 - [ ] Part 9: Deep Learning
 - [ ] Part 10: Computer Vision
