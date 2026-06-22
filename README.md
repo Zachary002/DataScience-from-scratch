@@ -547,7 +547,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 9: Deep Learning
 - [x] Part 10: Computer Vision
 - [x] Part 11: Classic NLP
-- [ ] Part 12: Modern NLP & LLMs
+- [x] Part 12: Modern NLP & LLMs
 - [ ] Part 13: Generative Models
 - [ ] Part 14: Time Series
 - [ ] Part 15: Recommender Systems
