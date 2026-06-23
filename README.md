@@ -549,7 +549,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 11: Classic NLP
 - [x] Part 12: Modern NLP & LLMs
 - [x] Part 13: Generative Models
-- [ ] Part 14: Time Series
+- [x] Part 14: Time Series
 - [ ] Part 15: Recommender Systems
 - [ ] Part 16: Graph & GNN
 - [ ] Part 17: Reinforcement Learning
