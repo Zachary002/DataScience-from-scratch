@@ -551,7 +551,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 13: Generative Models
 - [x] Part 14: Time Series
 - [x] Part 15: Recommender Systems
-- [ ] Part 16: Graph & GNN
+- [x] Part 16: Graph & GNN
 - [ ] Part 17: Reinforcement Learning
 - [ ] Part 18: Bayesian Methods
 - [ ] Part 19: Causal Inference
