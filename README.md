@@ -442,18 +442,18 @@ LLMs are table stakes today — full coverage here.
 
 | # | 主题 / Topic | 数据集 / Dataset | 关键概念 / Key Concepts |
 |---|---|---|---|
-| 20.1 | 生存分析 / Survival Analysis | Lung | Kaplan-Meier, Cox PH |
-| 20.2 | 地理空间分析 / Geospatial | NYC Taxi, GeoJSON | GeoPandas, H3, shapely |
-| 20.3 | 音频与语音 / Audio | UrbanSound8K | spectrogram, MFCC, CNN audio |
-| 20.4 | 异常检测进阶 / Advanced Anomaly Detection | NAB, MVTec | autoencoder, deep SVDD, PaDiM |
-| 20.5 | 半监督学习 / Semi-supervised | CIFAR | label propagation, self-training, FixMatch |
-| 20.6 | 主动学习 / Active Learning | MNIST | uncertainty sampling |
-| 20.7 | 元学习 / Meta-Learning | Omniglot | MAML, prototypical net |
-| 20.8 | 联邦学习 / Federated Learning | MNIST partitioned | FedAvg |
-| 20.9 | 隐私保护机器学习 / Privacy-Preserving ML | MNIST | differential privacy, DP-SGD |
-| 20.10 | 数据合成 / Synthetic Data Generation | Tabular | SMOTE, CTGAN |
-| 20.11 | 多任务学习 / Multi-task Learning | Multi-output | shared backbone |
-| 20.12 | 排序学习 / Learning to Rank | LETOR | RankNet, LambdaMART |
+| 20.1 | 生存分析 / Survival Analysis | Synthetic | 删失, Kaplan-Meier, Cox 比例风险 (从零) |
+| 20.2 | 地理空间分析 / Geospatial | Synthetic | 空间自相关 Moran's I, 点模式, 克里金直觉 (从零) |
+| 20.3 | 音频与语音 / Audio | Synthetic | 波形→STFT→梅尔谱→MFCC (从零) |
+| 20.4 | 异常检测进阶 / Advanced Anomaly Detection | Synthetic | Isolation Forest, LOF, 自编码器重构误差 |
+| 20.5 | 半监督学习 / Semi-supervised | Synthetic | 自训练, 一致性, **确认偏差自我崩溃** |
+| 20.6 | 主动学习 / Active Learning | Synthetic | 不确定性采样, **策略选错不如随机** |
+| 20.7 | 元学习 / Meta-Learning | Synthetic | MAML, ProtoNet (原型网络) |
+| 20.8 | 联邦学习 / Federated Learning | MNIST partitioned | FedAvg, **non-IID 头号难题**, 隐私≠安全 |
+| 20.9 | 隐私保护机器学习 / Privacy-Preserving ML | MNIST | 差分隐私, DP-SGD, **隐私-效用硬权衡** |
+| 20.10 | 数据合成 / Synthetic Data Generation | Synthetic | SMOTE, TSTR, **合成≠隐私** |
+| 20.11 | 多任务学习 / Multi-task Learning | Synthetic | 硬共享, **正迁移 vs 负迁移** |
+| 20.12 | 排序学习 / Learning to Rank | Synthetic | NDCG, RankNet, LambdaRank, **匹配问题难度** |
 
 ---
 
@@ -555,7 +555,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 17: Reinforcement Learning
 - [x] Part 18: Bayesian Methods
 - [x] Part 19: Causal Inference
-- [ ] Part 20: Advanced Topics
+- [x] Part 20: Advanced Topics
 - [ ] Part 21: Big Data
 - [ ] Part 22: MLOps & Deployment
 - [ ] Part 23: Cloud for DS
