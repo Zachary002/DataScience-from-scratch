@@ -554,7 +554,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 16: Graph & GNN
 - [x] Part 17: Reinforcement Learning
 - [x] Part 18: Bayesian Methods
-- [ ] Part 19: Causal Inference
+- [x] Part 19: Causal Inference
 - [ ] Part 20: Advanced Topics
 - [ ] Part 21: Big Data
 - [ ] Part 22: MLOps & Deployment
