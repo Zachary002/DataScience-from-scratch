@@ -481,20 +481,20 @@ Single-machine pandas dies above TB scale — must-know.
 
 ## Part 22 · MLOps 与部署 / MLOps & Deployment  ⭐⭐
 
-| # | 主题 / Topic | 数据集 / Dataset | 关键概念 / Key Concepts |
+| # | 主题 / Topic | 方式 / Approach | 关键概念 / Key Concepts |
 |---|---|---|---|
-| 22.1 | 模型持久化 / Model Persistence | any | pickle, joblib, ONNX |
-| 22.2 | Scikit-learn Pipelines | Titanic | ColumnTransformer, end-to-end fit |
-| 22.3 | FastAPI 部署 / Deployment with FastAPI | Iris | REST API, pydantic |
-| 22.4 | Streamlit 仪表板 / Dashboards | any | quick UI |
-| 22.5 | Docker 入门 / Docker Basics | model service | image, container, compose |
-| 22.6 | Kubernetes 入门 / K8s Basics for ML | — | pod, service, deployment, KServe |
-| 22.7 | CI/CD for ML | GitHub Actions | lint, test, model release |
-| 22.8 | 实验追踪 / Experiment Tracking | any | MLflow, Weights & Biases |
-| 22.9 | 特征平台 / Feature Store | toy | Feast 基础 |
-| 22.10 | 模型监控 & 漂移 / Monitoring & Drift | Synthetic | data drift, concept drift, PSI, KS, Evidently |
-| 22.11 | A/B 测试基础设施 / A/B Infra | — | bucketing, traffic split, shadow deploy |
-| 22.12 | 边缘部署 / Edge Deployment | TFLite/ONNX | quantization, pruning, distillation |
+| 22.1 | 模型持久化 / Model Persistence | 真实 joblib | 模型=权重+图; pickle RCE 安全; 版本漂移; 训练-服务偏差 |
+| 22.2 | Scikit-learn Pipelines | 真实(泄漏实验) | **纯噪声上泄漏造 0.78 假准确率**; ColumnTransformer; 机制防泄漏 |
+| 22.3 | FastAPI 部署 / Deployment | 从零 mini 服务 | 请求校验(422)、健康检查、模型加载一次、请求生命周期 |
+| 22.4 | Streamlit 仪表板 / Dashboards | 从零反应式引擎 | 反应式重跑 + @st.cache; 模型探索器; vs Gradio/Dash |
+| 22.5 | Docker 入门 / Docker Basics | 从零分层缓存 | 镜像vs容器; **指令顺序=构建速度**; 多阶段; 真实 Dockerfile |
+| 22.6 | Kubernetes 入门 / K8s Basics | 从零调和循环 | **声明式+调和循环**(自愈+扩缩); Pod/Deployment/Service/HPA |
+| 22.7 | CI/CD for ML | 从零流水线+质量门 | **质量门拦退化模型**(0.70 被 0.88 阻断); 数据校验; 持续训练 |
+| 22.8 | 实验追踪 / Experiment Tracking | 从零 mini MLflow | 记录 params/metrics/model; 比较 run; **可复现**; 模型注册表 |
+| 22.9 | 特征平台 / Feature Store | 真实 point-in-time | **朴素 join 泄漏未来值**; as-of join; 在线离线一致; Feast |
+| 22.10 | 模型监控 & 漂移 / Monitoring & Drift | 真实 PSI+KS | 数据漂移 vs **概念漂移**(输入没变准确率崩 0.996→0.51); 标签延迟 |
+| 22.11 | A/B 测试基础设施 / A/B Infra | 从零哈希分桶 | 确定性分桶(一致/无状态/独立); 影子/金丝雀/蓝绿限爆炸半径 |
+| 22.12 | 边缘部署 / Edge Deployment | 真实 torch 压缩 | **量化 int8 免费 4x**; 剪枝 80%; 蒸馏(诚实:难任务才有效) |
 
 ---
 
@@ -557,7 +557,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 19: Causal Inference
 - [x] Part 20: Advanced Topics
 - [x] Part 21: Big Data
-- [ ] Part 22: MLOps & Deployment
+- [x] Part 22: MLOps & Deployment
 - [ ] Part 23: Cloud for DS
 - [ ] Part 24: ML System Design & Interviews
 
