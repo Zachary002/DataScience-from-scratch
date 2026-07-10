@@ -500,14 +500,14 @@ Single-machine pandas dies above TB scale — must-know.
 
 ## Part 23 · 云计算与数据科学 / Cloud for Data Science
 
-| # | 主题 / Topic | 数据集 / Dataset | 关键概念 / Key Concepts |
+| # | 主题 / Topic | 方式 / Approach | 关键概念 / Key Concepts |
 |---|---|---|---|
-| 23.1 | AWS for DS | — | S3, EC2, SageMaker, Lambda, Athena, Redshift |
-| 23.2 | GCP for DS | — | GCS, BigQuery, Vertex AI, Dataflow |
-| 23.3 | Azure for DS | — | Blob, Synapse, Azure ML |
-| 23.4 | Databricks | — | notebooks, Delta Lake, jobs |
-| 23.5 | Snowflake | — | warehouse, Snowpark |
-| 23.6 | Airflow / Prefect / Dagster | toy DAG | scheduling, task graph |
+| 23.1 | AWS for DS | 从零 mini-S3+Lambda | 对象存储、无服务器、存算分离(按需省 24x)、服务地图 |
+| 23.2 | GCP for DS | **真实 Parquet 成本测量** | BigQuery 无服务器数仓、**按扫描计费(分区+列裁剪省 61x)** |
+| 23.3 | Azure for DS | 从零 RBAC 引擎 | 三云 Rosetta 对应表、**最小权限/默认拒绝**、托管身份 |
+| 23.4 | Databricks | 从零 Medallion 流水线 | 湖仓平台、**bronze→silver→gold** 逐层提质、Delta/Unity |
+| 23.5 | Snowflake | 从零虚拟仓库模拟 | 三层架构、**虚拟仓库工作负载隔离**、按秒计费、零拷贝克隆 |
+| 23.6 | Airflow / Prefect / Dagster | 从零 DAG 编排器 | **拓扑执行+重试+失败传播**、幂等性、调度回填、vs cron |
 
 ---
 
@@ -558,7 +558,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 20: Advanced Topics
 - [x] Part 21: Big Data
 - [x] Part 22: MLOps & Deployment
-- [ ] Part 23: Cloud for DS
+- [x] Part 23: Cloud for DS
 - [ ] Part 24: ML System Design & Interviews
 
 ---
