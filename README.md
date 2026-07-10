@@ -462,20 +462,20 @@ LLMs are table stakes today — full coverage here.
 数据量上 TB / PB 后单机搞不定，必须懂这些。
 Single-machine pandas dies above TB scale — must-know.
 
-| # | 主题 / Topic | 数据集 / Dataset | 关键概念 / Key Concepts |
+| # | 主题 / Topic | 方式 / Approach | 关键概念 / Key Concepts |
 |---|---|---|---|
-| 21.1 | PySpark 入门 / PySpark Basics | NYC Taxi | RDD, DataFrame, SparkSession |
-| 21.2 | Spark SQL & 优化 / Spark SQL & Tuning | NYC Taxi | partitioning, broadcast join, catalyst |
-| 21.3 | Spark MLlib | Titanic-scale | pipeline, distributed training |
-| 21.4 | Spark Streaming / Structured Streaming | Kafka topic | micro-batch, watermark |
-| 21.5 | Dask | Large CSV | task graph, dask.dataframe, dask.delayed |
-| 21.6 | Polars (Lazy) at Scale | Multi-GB | streaming engine |
-| 21.7 | DuckDB | Parquet | analytical SQL on local data |
-| 21.8 | 数据存储格式 / Storage Formats | various | CSV, Parquet, Avro, ORC, Arrow |
-| 21.9 | Hadoop 生态速览 / Hadoop Overview | — | HDFS, YARN, Hive |
-| 21.10 | Kafka 入门 / Kafka Basics | Toy stream | producer, consumer, topic |
-| 21.11 | Lakehouse: Delta / Iceberg / Hudi | — | ACID on object storage |
-| 21.12 | 分布式 ML 训练 / Distributed Training at Scale | — | Horovod, Ray, DeepSpeed 概念 |
+| 21.1 | PySpark 入门 / PySpark Basics | 从零 MiniSpark | 惰性求值, 分区并行, 窄/宽依赖, **Shuffle**, 血缘容错 |
+| 21.2 | Spark SQL & 优化 / Spark SQL & Tuning | MiniSQL + 真实 DuckDB EXPLAIN | Catalyst, 谓词下推, broadcast vs shuffle join, 数据倾斜/AQE |
+| 21.3 | Spark MLlib | 从零分布式训练 | 数据并行, 梯度可加, treeAggregate(=单机 1e-16) |
+| 21.4 | 结构化流处理 / Structured Streaming | 从零流引擎 | 事件时间, 窗口, **watermark 处理迟到数据**, exactly-once |
+| 21.5 | Dask | 从零任务图 | delayed DAG, 并行调度 3x, 分区 pandas |
+| 21.6 | Polars at Scale | **真实基准** | 列式+多线程+惰性优化器, 比 pandas 快 **5-6x** |
+| 21.7 | DuckDB | **真实基准** | 进程内 OLAP, SQL 直查 Parquet 快 **10x**, Arrow 零拷贝 |
+| 21.8 | 数据存储格式 / Storage Formats | **真实基准** | 行式 vs 列式, CSV→Parquet 快 **17x/34x**, Arrow, 谓词下推 |
+| 21.9 | Hadoop & MapReduce | 从零 MapReduce | map→shuffle→reduce, Spark 为何快 14x(内存 vs 落盘) |
+| 21.10 | Kafka 入门 / Kafka Basics | 从零 mini-Kafka | 分区日志, offset, 消费者组, 键序保证, 重放 |
+| 21.11 | Lakehouse: Delta / Iceberg / Hudi | 从零 mini-Lakehouse | 事务日志=文件级 MVCC, ACID, 时间旅行, copy-on-write |
+| 21.12 | 分布式训练 / Distributed Training | 从零 Ring-AllReduce | 数据/张量/流水线/ZeRO 并行, AllReduce 可扩展性 |
 
 ---
 
@@ -556,7 +556,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 18: Bayesian Methods
 - [x] Part 19: Causal Inference
 - [x] Part 20: Advanced Topics
-- [ ] Part 21: Big Data
+- [x] Part 21: Big Data
 - [ ] Part 22: MLOps & Deployment
 - [ ] Part 23: Cloud for DS
 - [ ] Part 24: ML System Design & Interviews
