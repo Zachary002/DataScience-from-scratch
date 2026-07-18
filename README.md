@@ -516,20 +516,20 @@ Single-machine pandas dies above TB scale — must-know.
 终极阶段——大厂 senior DS / MLE 面试。
 The final boss — senior DS / MLE interviews.
 
-| # | 主题 / Topic | 内容 / Content |
+| # | 主题 / Topic | 核心洞察(可跑 demo)/ Core Insight (runnable demo) |
 |---|---|---|
-| 24.1 | 设计推荐系统 / Design a Recommender | YouTube / Netflix 级别 |
-| 24.2 | 设计搜索系统 / Design a Search Ranker | Google / Amazon 搜索 |
-| 24.3 | 设计 feed / 时间线 / Design a News Feed | Facebook / Twitter |
-| 24.4 | 设计广告系统 / Design an Ads CTR System | Meta / Google Ads |
-| 24.5 | 设计欺诈检测 / Design Fraud Detection | Stripe / Visa |
-| 24.6 | 设计 ETA / 路径预测 / Design ETA Prediction | Uber / DoorDash |
-| 24.7 | 设计内容审核 / Design Content Moderation | Reddit / TikTok |
-| 24.8 | 设计 RAG 系统 / Design a RAG System | 企业知识库 |
-| 24.9 | 案例面试题型 / Case Interview Patterns | metric design, root cause analysis |
-| 24.10 | 行为面试与 DS 故事 / Behavioral & DS Storytelling | STAR framework |
-| 24.11 | SQL 面试速通 / SQL Interview Cram | LeetCode hard SQL |
-| 24.12 | 机器学习概念速通 / ML Concepts Cram | classic interview Q&A |
+| 24.1 | 设计推荐系统 / Design a Recommender | **多阶段漏斗**:精排全部100万物品 401ms vs 漏斗 12ms |
+| 24.2 | 设计搜索系统 / Design a Search Ranker | **混合检索**:BM25 词汇 + 语义向量, 互补缺一漏召回 |
+| 24.3 | 设计 feed / 时间线 / Design a News Feed | 多目标价值模型 + **MMR 多样性**(1作者→4作者)+ fan-out |
+| 24.4 | 设计广告系统 / Design an Ads CTR System | **校准**:AUC 不变但 ECE 降 6x(排序好≠概率准) |
+| 24.5 | 设计欺诈检测 / Design Fraud Detection | 准确率陷阱(98%抓0)+ **成本敏感阈值**(0.02≠0.5) |
+| 24.6 | 设计 ETA / Design ETA Prediction | **分位数回归**:P50 只 51% 准时, P90 达 91% |
+| 24.7 | 设计内容审核 / Design Content Moderation | **分级/级联**:高置信自动+不确定人审(错误 6000→400) |
+| 24.8 | 设计 RAG 系统 / Design a RAG System | 检索决定答案质量, 检索不到说"不知道"防幻觉 |
+| 24.9 | 案例面试题型 / Case Interview Patterns | 指标设计+根因分析; **辛普森悖论**分段分解 |
+| 24.10 | 行为面试 / Behavioral & Storytelling (STAR) | 把"AUC 0.87"翻译成"+\$8.6M/年"; ownership |
+| 24.11 | SQL 面试速通 / SQL Interview Cram | **7 大可跑 DuckDB 模式**(窗口/漏斗/gaps-islands/留存) |
+| 24.12 | 机器学习概念速通 / ML Concepts Cram | 偏差-方差、L1稀疏vs L2、18题 Q&A(仓库收官) |
 
 ---
 
@@ -559,7 +559,7 @@ The final boss — senior DS / MLE interviews.
 - [x] Part 21: Big Data
 - [x] Part 22: MLOps & Deployment
 - [x] Part 23: Cloud for DS
-- [ ] Part 24: ML System Design & Interviews
+- [x] Part 24: ML System Design & Interviews  ✅ **仓库完成 / repo complete!**
 
 ---
 
